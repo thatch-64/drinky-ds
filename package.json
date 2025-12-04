@@ -1,0 +1,30 @@
+{
+  "name": "drinky-ds",
+  "version": "0.0.1",
+  "description": "Just another discord bot",
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatch-64/drinky-ds.git"
+  },
+  "license": "ISC",
+  "author": "thatch-64",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  },
+  "scripts": {
+    "dev": "npx tsx --watch src",
+    "build": "npx tsc",
+    "start": "node ."
+  }
+}
