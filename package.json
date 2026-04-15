@@ -25,6 +25,7 @@
   "scripts": {
     "dev": "npx tsx --watch src",
     "build": "npx tsc",
-    "start": "node ."
+    "start": "node .",
+    "deploy": "npx tsx src/deploy.ts"
   }
 }
